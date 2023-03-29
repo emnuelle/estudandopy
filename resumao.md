@@ -95,4 +95,25 @@ Utilizando o operador e atribuição "+=" para concatenar strings, ex:
        print(frase)
       
       Rode o programa e veja o resultado ;)
-  
+
+## Casting
+Algumas vez será necessário especificar um tipo para alguma variável, no python podemos utilizar as funções abaixo para realizar esta conversão de valores;
+
+    > "int()" converte um valor para un número inteiro
+    > "float()" converte um valor para um número real (com casas decimais)
+    > "str()" converte o valor para uma string
+    nota: os valores serão convertidos se isso for possível!
+ex:
+
+        x = 10.0  
+        print(type(x), x)
+        x = int(x)
+        print(type(x), x)
+        x = str(x)
+        print(type(x), x)
+        x = float(x)
+        print(type(x), x)
+
+      Rode o programa e veja o resultado ;)
+
+##
