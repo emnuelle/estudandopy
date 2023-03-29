@@ -69,7 +69,7 @@ O python permite que você realize múltiplas atribuições em uma única linha,
       print(z)
 
      Rode o programa e veja o resultado ;)
-Também dda para atribuir um mesmo valor a múltiplas variáveis, ex;
+Também da para atribuir um mesmo valor a múltiplas variáveis, ex;
 
       x = y = z = "Biscoito"
       print(x)
@@ -77,3 +77,22 @@ Também dda para atribuir um mesmo valor a múltiplas variáveis, ex;
       print(z)
     
      Rode o programa e veja o resultado ;)
+
+##   Expressão interativa:
+Podemos utilizar os operadores de atribuição para realizar cálculos com os valores já presentes em uma variavél, ex:
+
+       num = 10
+       print(num)
+       num += 5
+       print(num)
+       
+      Rode o programa e veja o resultado ;)
+
+Utilizando o operador e atribuição "+=" para concatenar strings, ex:
+
+       frase = "O rato roeu"
+       frase += "\na roupa do rei de Roma"
+       print(frase)
+      
+      Rode o programa e veja o resultado ;)
+  
