@@ -36,6 +36,10 @@
      
 
     Rode o programa e veja o resultado ;)
+    *input()* - (comando) serve para permitir que o usuário entre com algum valor (via terminal)
+    > O valor informado pelo usuário com o comando "input()" deve ser atribuido a uma variavel
+    > Por padrão, todo valor digitado no terinal, é uma string (cating pode ser necessério em alguns casos) 
+    > exemplos de progroma com o comando no arquivo "exinput.py"
     
 ##   Operadores aritiméticos:
     > "+": adição      
@@ -116,4 +120,3 @@ ex:
 
       Rode o programa e veja o resultado ;)
 
-##
