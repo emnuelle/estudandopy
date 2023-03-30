@@ -120,3 +120,18 @@ ex:
 
       Rode o programa e veja o resultado ;)
 
+## Módulo math
+Contém várias funções matemáticas para o uso , pra utiliza-las primeiramente temos que importa-las no início do código, usando **import**. 
+
+        > "math.sqrt(x)" - calcula a raiz quadrada, ex:
+            
+            import math
+            num = 81 
+            print(math.sqrt(num))
+
+        Rode o programa e veja o resultado ;)
+        > math.ceil(x) - arredonda o número x para cima
+        > math.floor(x) - arredonda o número x para baixo 
+        > math.pi - retorna o valor de pi
+        > math.pow(x,y) - eleva valor x por y
+
