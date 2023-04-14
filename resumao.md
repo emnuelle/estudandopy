@@ -135,3 +135,4 @@ Contém várias funções matemáticas para o uso , pra utiliza-las primeirament
         > math.pi - retorna o valor de pi
         > math.pow(x,y) - eleva valor x por y
 
+# LULLY ESTEVE AQUI! :P
