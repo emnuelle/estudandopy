@@ -45,7 +45,8 @@
     > "+": adição      
     > "-": subtração
     > "*": multiplicação
-    > "/": divisão
+    > "/": divisão 
+    nota "//" divide em números inteiros
 ##   Operadores de atribuição:
 Utilizamos para atribuir valores as variáveis
 
@@ -140,3 +141,5 @@ Contém várias funções matemáticas para o uso , pra utiliza-las primeirament
 ### interrrompendo o fluxo de execução (boatos que não é uma boa prática)
 O comando *break* interrompe por completo o bloco de comando e o comando *continue* pula para próxima iteração
 > exs nos arquivos exaulax.py!
+
+### Tratamento de erros
