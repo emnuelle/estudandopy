@@ -135,3 +135,8 @@ Contém várias funções matemáticas para o uso , pra utiliza-las primeirament
         > math.pi - retorna o valor de pi
         > math.pow(x,y) - eleva valor x por y
 
+
+## Notas aula 280423
+### interrrompendo o fluxo de execução (boatos que não é uma boa prática)
+O comando *break* interrompe por completo o bloco de comando e o comando *continue* pula para próxima iteração
+> exs nos arquivos exaulax.py!
