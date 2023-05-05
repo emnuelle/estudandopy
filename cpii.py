@@ -73,3 +73,15 @@ while continua.lower() == "sim":
 
 # exibindo informações finais 
 print(msgfinal)
+
+
+frete = total / 2
+
+if total < 200 :
+    print(f"Valor do frete:{frete}")
+else:
+    print("Frete Grátis!!!!")
+
+print(f"Total da compra: R${total:2f}\n Total com frete R${total + frete}")
+
+print(f"{nome}, foi um prazer atende-lo. Volte em breve\n Um beijo da Anitta!")
