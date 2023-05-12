@@ -143,3 +143,20 @@ O comando *break* interrompe por completo o bloco de comando e o comando *contin
 > exs nos arquivos exaulax.py!
 
 ### Tratamento de erros
+
+
+## Notas aula 120523
+-- Correção de exs da aula anterior (depois colocar nessa pasta {ver os slides no teams})
+### listas 
+[LIST]: um objeto que é utilizadopara armazenar múltiplos valores em um variavél 
+crims um list e inicializamos seus valores usamos o colchetes []
+
+> ex 
+  frutas = [uva, maçã, tomate] |
+  print(frutas) |
+  *iria aparecer todas asa frutas*
+
+* Ordena os seus valores em indices(começando em 0), não possui um tamo fixo (muda de acordo com os elemetos que possui)
+* Os valores podem ser duplicados, para descobrir o tamanho de list utilizamos a função len() e para adicionar novos valores utilizamos a função append()
+*Mais exemplos nos slides*
+
