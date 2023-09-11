@@ -1,4 +1,5 @@
 #paia
+#Foi mais ou menos
 
 # Monte um programa de cadastro de usuários. Devem
 # ser cadastrados as informações de nome, login e senha.
@@ -21,15 +22,15 @@ def cadastro():
 
         print("Digite o usuário:")
         nome_usuario = input()
-        adc_nome = open(f'd:/realizando-atividades/{nome}.txt', 'w', encoding='utf-8')
-        adc_nome.write(f"Nome de usuário:{nome_usuario}")
-        adc_nome.close()
+        adc_user = open(f'd:/realizando-atividades/{nome}.txt', 'w', encoding='utf-8')
+        adc_user.write(f"Nome de usuário: {nome_usuario}")
+        adc_user.close()
 
         print("Digite a senha:")
         senha = input()
-        adc_nome = open(f'd:/realizando-atividades/{nome}.txt', 'w', encoding='utf-8')
-        adc_nome.write(f"Senha:{senha}")
-        adc_nome.close()
+        adc_senha = open(f'd:/realizando-atividades/{nome}.txt', 'a', encoding='utf-8')
+        adc_senha.append(f"Senha: {senha}")
+        adc_senha.close()
 
         #Testando aq
         teste = open(f'd:/realizando-atividades/{nome}.txt', 't', encoding='utf-8')
@@ -40,4 +41,7 @@ def cadastro():
 
 # Progama
 print(cadastro())
+
+
+
 
